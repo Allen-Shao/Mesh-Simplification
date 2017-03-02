@@ -1,6 +1,10 @@
 # mesh-simplification
 An alternative to qslim algorithm using vtk
 
+## Input and Output Remarks
+The current version implements a custom reader and writer of [smf file format](http://people.sc.fsu.edu/~jburkardt/data/smf/smf.txt).  
+Other format such as OFF can be easily implemented.
+
 ## Dependency
 ### OpenGL
 * Ubuntu
@@ -24,13 +28,14 @@ $ sudo yum install freeglut-devel
 ```bash
 $ mkdir build
 $ cd build
-$ cmake ..
+$ cmake ../src
 $ make
 ```
 * if you have not installed any dependencies:
 ```bash
-$ ./compile.sh
+$ ./compile_<Your OS>.sh
 ```
+After finished, go into build/ folder.
 
 ## Run
 This is a dummy running command temporarily for pipeline testing.  
