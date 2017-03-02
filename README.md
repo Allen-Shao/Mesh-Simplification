@@ -1,5 +1,5 @@
 # mesh-simplification
-An alternative to current qslim algorithm using vtk
+An alternative to qslim algorithm using vtk
 
 ## Dependency
 ### OpenGL
