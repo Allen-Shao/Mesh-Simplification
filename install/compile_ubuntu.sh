@@ -5,7 +5,7 @@ CUR_PATH=$(pwd)
 #Dependency
 #openGL
 echo Installing OpenGL
-sudo yum install -y freeglut-devel
+sudo apt-get install -y freeglut3-dev
 
 #vtk-7.1
 echo Downloading VTK source code
@@ -30,8 +30,9 @@ rm VTK-7.1.0.tar.gz
 
 #build mesh decimation
 echo Building mesh decimation
+cd ..
 mkdir build
 cd build
-cmake ..
+cmake ../src
 make
 
