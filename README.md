@@ -35,7 +35,7 @@ $ ./compile.sh
 ## Run
 This is a dummy running command temporarily for pipeline testing.  
 ```bash
-$ ./qslim -t 1 -o <output filename> <input filename>
+$ ./simplification -n <target no. of polygons> -o <output filename> <input filename>
 ```
 
 
