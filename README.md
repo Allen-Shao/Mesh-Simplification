@@ -43,4 +43,7 @@ This is a dummy running command temporarily for pipeline testing.
 $ ./simplification -n <target no. of polygons> -o <output filename> <input filename>
 ```
 
+## Wiki
+If you want to learn more, I also created a simple wiki page to briefly introduce vtk and the algorithms. Check out [here](https://github.com/Allen-Shao/Mesh-Simplification/wiki/Mesh-Decimation-Using-VTK).
+
 
